@@ -19,6 +19,7 @@ To utilize the automated API endpoints provided in this repository, you'll need 
 Basic Authentication: Implement Basic Auth and Cookie-based authentication for authenticating API requests.
 Request and Response Spec Builders: Utilize RequestSpecBuilder and ResponseSpecBuilder to pass and assert common values across all API requests.
 Serialization: Implement serialization techniques for constructing API Request Payloads using Plain Old Java Object (POJO) classes.
+
 **Usage**
 
 To begin using the automated API endpoints, follow the installation instructions provided in the repository. Once installed, you can execute the provided test cases to automate interactions with the Jira REST API.
