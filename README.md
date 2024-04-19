@@ -12,9 +12,11 @@ For detailed documentation of the Jira API, please refer to the official Jira AP
 
 **Features**
 
-Basic Authentication: Implement Basic Auth and Cookie-based authentication for authenticating API requests.
-Request and Response Spec Builders: Utilize RequestSpecBuilder and ResponseSpecBuilder to pass and assert common values across all API requests.
-Serialization: Implement serialization techniques for constructing API Request Payloads using Plain Old Java Object (POJO) classes.
+**Authentication:** Implement Basic Auth, Cookie-based authentication, and OAuth for authenticating API requests.
+
+**Request and Response Spec Builders:** Utilize RequestSpecBuilder and ResponseSpecBuilder to pass and assert common values across all API requests.
+
+**Serialization:** Implement serialization techniques for constructing API Request Payloads using Plain Old Java Object (POJO) classes.
 
 **Setup & Usage**
 
