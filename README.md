@@ -22,12 +22,29 @@ Serialization: Implement serialization techniques for constructing API Request P
 
 **Usage**
 
-To begin using the automated API endpoints, follow the installation instructions provided in the repository. Once installed, you can execute the provided test cases to automate interactions with the Jira REST API.
+To begin using the automated API endpoints, follow the following installation instructions:
+
+Step 1: Install Jira Software Server on your local machine. It's available for a 30-day free trial period.
+
+Step 2: Launch the Jira Server.
+
+Step 3: Create a project and take note of the project key (this will be used in API requests).
+
+Step 4: Clone or download this repository.
+
+Step 5: Import the repository as a Maven project in Eclipse IDE.
+
+Step 6: Open the pom.xml file. If necessary, modify it according to your requirements.
+
+Step 7: Navigate to Project > Maven > Update Project.
+
+Step 8: Open the config.properties file located under src/main/java > com.jira.config package.
+
+Step 9: Provide your API base URI, Jira username and password, and any other required details. Save the changes.
+
+Step 10: Execute the test cases using the testng.xml file found under src/test/resources > TestRunner or via Maven commands.
 
 **Contributing**
 
 Contributions to this project are welcome! If you have suggestions for improvements, bug reports, or would like to add new features, please feel free to open an issue or submit a pull request.
 
-**License**
-
-This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license.
