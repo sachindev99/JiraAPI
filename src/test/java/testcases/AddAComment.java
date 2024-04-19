@@ -1,4 +1,4 @@
-package jira;
+package testcases;
 
 import org.testng.annotations.Test;
 

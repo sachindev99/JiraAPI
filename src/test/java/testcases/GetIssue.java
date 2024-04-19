@@ -1,4 +1,4 @@
-package jira;
+package testcases;
 
 import static io.restassured.RestAssured.given;
 
