@@ -10,17 +10,13 @@ The Jira REST API empowers developers to interact with Jira programmatically, fa
 
 For detailed documentation of the Jira API, please refer to the official Jira API Documentation.
 
-**Setup**
-
-To utilize the automated API endpoints provided in this repository, you'll need to install Jira Software Server on your local machine. Download it from here.
-
 **Features**
 
 Basic Authentication: Implement Basic Auth and Cookie-based authentication for authenticating API requests.
 Request and Response Spec Builders: Utilize RequestSpecBuilder and ResponseSpecBuilder to pass and assert common values across all API requests.
 Serialization: Implement serialization techniques for constructing API Request Payloads using Plain Old Java Object (POJO) classes.
 
-**Usage**
+**Setup & Usage**
 
 To begin using the automated API endpoints, follow the following installation instructions:
 
